@@ -1,0 +1,88 @@
+{
+  "title": "Invite a teammate to your client workspace",
+  "audience": "A client administrator receiving a consultant handover.",
+  "prerequisites": "Use a workspace where you are authorized to manage members. This example uses a fictional UI; labels may differ in your actual product.",
+  "steps": [
+    {
+      "id": "step-1",
+      "action": "Open People in workspace settings",
+      "expected": "The member list and Invite member action are visible.",
+      "observed": "The synthetic screenshot shows two current members and an invitation button.",
+      "screenshot": "demo-step-1.png",
+      "origin": "synthetic-demo",
+      "capture_note": "Fictional UI fixture; no live account action or email delivery was performed.",
+      "redact": [
+        [
+          340,
+          410,
+          720,
+          450
+        ],
+        [
+          340,
+          530,
+          720,
+          570
+        ]
+      ],
+      "highlight": [
+        [
+          1070,
+          640,
+          1295,
+          725
+        ]
+      ]
+    },
+    {
+      "id": "step-2",
+      "action": "Enter the recipient and review the Editor role",
+      "expected": "The intended email and access role are set before the invitation is sent.",
+      "observed": "The synthetic draft has an email value and the Editor role selected; it is not yet sent.",
+      "screenshot": "demo-step-2.png",
+      "origin": "synthetic-demo",
+      "capture_note": "Fictional UI fixture; no live account action or email delivery was performed.",
+      "redact": [
+        [
+          360,
+          397,
+          920,
+          436
+        ]
+      ],
+      "highlight": [
+        [
+          335,
+          510,
+          1260,
+          598
+        ]
+      ]
+    },
+    {
+      "id": "step-3",
+      "action": "Send the invitation and check its pending status",
+      "expected": "The intended recipient appears with the Editor role and a Pending status.",
+      "observed": "The synthetic final state shows Editor and Pending. It does not establish acceptance or actual delivery.",
+      "screenshot": "demo-step-3.png",
+      "origin": "synthetic-demo",
+      "capture_note": "Fictional UI fixture; no live account action or email delivery was performed.",
+      "redact": [
+        [
+          340,
+          440,
+          805,
+          490
+        ]
+      ],
+      "highlight": [
+        [
+          1080,
+          428,
+          1270,
+          503
+        ]
+      ]
+    }
+  ]
+}

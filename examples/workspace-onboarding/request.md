@@ -1,0 +1,1 @@
+Create a handover guide for a client administrator inviting a teammate. Distinguish a draft, a pending invitation and acceptance. Mask the marked email addresses and retain visible roles/statuses. These screenshots are synthetic; do not claim that a real invitation was sent.

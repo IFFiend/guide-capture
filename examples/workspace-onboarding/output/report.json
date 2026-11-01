@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "status": "technical_pass",
+  "behavioral_verification": "not_performed_by_builder",
+  "privacy_review": "pending",
+  "source_sha256": "6fff58c2711ad7ac06fc9093cc646a945a93382df8e6ca28fcd90c80e6d8b0fa",
+  "items": [
+    {
+      "step": 1,
+      "id": "step-1",
+      "origin": "synthetic-demo",
+      "capture_note": "Fictional UI fixture; no live account action or email delivery was performed.",
+      "source_sha256": "fe2a77224bf36122da978fc3b3b1ccf3a8154b6da7531594a82fbbd5cfa8e575",
+      "export_sha256": "36dd106507ecceb4ba81b5de1474eb4ee7e979b6f81153428d5b1fb92c737305",
+      "size": [
+        1400,
+        900
+      ],
+      "redactions": 2,
+      "highlights": 1
+    },
+    {
+      "step": 2,
+      "id": "step-2",
+      "origin": "synthetic-demo",
+      "capture_note": "Fictional UI fixture; no live account action or email delivery was performed.",
+      "source_sha256": "921076fab8bc4c22844d379f1ad63973c179799fd1a01cd92b5b1140b407ecd6",
+      "export_sha256": "c3cf6e626f4c35366308672ae18f04c331b79836fc0b4d9987ee90c7ae1b82e8",
+      "size": [
+        1400,
+        900
+      ],
+      "redactions": 1,
+      "highlights": 1
+    },
+    {
+      "step": 3,
+      "id": "step-3",
+      "origin": "synthetic-demo",
+      "capture_note": "Fictional UI fixture; no live account action or email delivery was performed.",
+      "source_sha256": "37416bc284b7d0fc46ac8371da1538c553442c12bc6d275e0f85f56e46f34f92",
+      "export_sha256": "d23bc8a56dc7860b9f125b12f146f1bbcf493b008ea0e3c831a83ca401444a0e",
+      "size": [
+        1400,
+        900
+      ],
+      "redactions": 1,
+      "highlights": 1
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Guide Capture"
+  short_description: "Turn ordered screenshots into an evidence-labelled client guide"
